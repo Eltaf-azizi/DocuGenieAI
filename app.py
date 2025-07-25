@@ -28,3 +28,22 @@ try:
 
 except Exception:
     chroma_collection = chroma_client.create_collection(collection_name)
+
+
+
+
+# Wrap chromadb as vector store
+vector_store = ChromaVectorStore(chroma_collection)
+
+
+
+# Create vector index
+index = VectorStoreIndex.from_documents(documents, vector_store=vector_store)
+
+
+
+# Save storage context for later use
+index.storage_context.persist('./storage')
+
+
+print("Documents index successfuly")
