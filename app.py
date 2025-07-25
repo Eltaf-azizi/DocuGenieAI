@@ -8,4 +8,23 @@ import chromadb
 load_dotenv()
 os.environ['OPENAI_API_KEY'] = os.getenv("OPENAI_API_KEY")
 
+
+# Load documents from directory
 documents = SimpleDirectoryReader('./documentation').load_data()
+
+
+# Initialize chromadb
+chroma_client = chromadb.PersistentClient(path="./storage")
+
+
+
+# Load a chroma collection
+collection_name = 'dev_docs_collection'
+
+
+
+try:
+    chroma_collection = chroma_client.get_collection(collection_name)
+
+except Exception:
+    chroma_collection = chroma_client.create_collection(collection_name)
