@@ -1,8 +1,10 @@
 import os
 from dotenv import load_dotenv
-from llama_index.core import SimpleDirectoryReader, VectorStoreIndex, StorageContext
+from llama_index import VectorStoreIndex, StorageContext
+from llama_index.readers import SimpleDirectoryReader
 from llama_index.vector_stores.chroma import ChromaVectorStore
 import chromadb
+
 
 
 load_dotenv()
@@ -43,7 +45,7 @@ index = VectorStoreIndex.from_documents(documents, vector_store=vector_store)
 
 
 # Save storage context for later use
-index.storage_context.persist('./storage')
+index.StorageContext.persist('./storage')
 
 
 print("Documents index successfuly")
