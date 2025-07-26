@@ -50,3 +50,19 @@ documentation/
 └── requirements.txt    # Python dependencies
 ```
 
+## ⚙️ Installation
+```bash
+Copy
+Edit
+# Clone the repository
+git clone https://github.com/yourusername/ai-docs-chatbot.git
+cd ai-docs-chatbot
+
+# Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+```
