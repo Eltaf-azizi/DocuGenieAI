@@ -24,3 +24,13 @@ query_engine = index.as_query_engine()
 @app.get("/")
 async def root():
     return {"message": "developer documentation chatbot is running"}
+
+
+
+
+@app.get("/query/")
+async def query_docs(question: str):
+    response = index.as_query_engine().query(question)
+    return {"response": str(response)}
+
+
