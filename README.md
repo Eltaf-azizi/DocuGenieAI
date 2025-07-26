@@ -78,3 +78,20 @@ SLACK_API_TOKEN=your_slack_token
 OPENAI_API_KEY=your_openai_api_key
 OTHER_CONFIG=...
 ```
+
+## 🚀 Running the App
+```bash
+Copy
+Edit
+# Run the FastAPI server
+python app.py
+```
+or
+
+```bash
+Copy
+Edit
+# Run the chatbot script
+python main.py
+```
+
