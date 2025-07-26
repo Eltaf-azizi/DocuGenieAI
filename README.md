@@ -29,3 +29,24 @@ This project is a hands-on learning experience that teaches you how to:
  - ✅ Easy-to-follow structure for beginners and intermediates.
 
 
+
+## 📁 Project Structure
+```bash
+Copy
+Edit
+documentation/
+│
+├── storage/
+│   ├── default_vector_store.json
+│   ├── docstore.json
+│   ├── graph_store.json
+│   ├── image_vector_store.json
+│   └── index_store.json
+│
+├── .env                # Environment variables for API keys and secrets
+├── app.py              # Main FastAPI app logic
+├── main.py             # Script to run the chatbot
+├── README.md           # Project overview and usage
+└── requirements.txt    # Python dependencies
+```
+
