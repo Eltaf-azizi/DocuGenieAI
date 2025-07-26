@@ -15,3 +15,17 @@ This project is a hands-on learning experience that teaches you how to:
  - Leverage tools like n8n for workflow automation.
 
  - Deploy using FastAPI for scalable and performant APIs.
+
+
+## 🧠 Key Features
+ - ✅ Slack integration with real-time chatbot responses.
+
+ - ✅ Vector store support for document retrieval.
+
+ - ✅ Modular Python structure for clarity and extensibility.
+
+ - ✅ Workflow automation via n8n.
+
+ - ✅ Easy-to-follow structure for beginners and intermediates.
+
+
