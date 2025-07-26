@@ -66,3 +66,15 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 ```
+
+
+## 🔑 Environment Variables
+Create a .env file in the root directory with the following content:
+
+```ini
+Copy
+Edit
+SLACK_API_TOKEN=your_slack_token
+OPENAI_API_KEY=your_openai_api_key
+OTHER_CONFIG=...
+```
