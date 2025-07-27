@@ -128,5 +128,13 @@ python main.py
  - Strengthen Python skills through real-world application.
 
 
+## 📌 Future Improvements
+ - Add support for multiple documentation sources.
+
+ - Include natural language understanding improvements.
+
+ - Dockerize for easy deployment.
+
+ - Build a web UI interface for chatbot monitoring.
 
 
