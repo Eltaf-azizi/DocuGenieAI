@@ -95,3 +95,13 @@ Edit
 python main.py
 ```
 
+## 🧪 Use Cases
+ - Ask coding-related questions in Slack and get instant AI answers.
+
+ - Integrate your company’s technical documentation.
+
+ - Enhance team productivity with workflow automation (via n8n).
+
+ - Scale with FastAPI's production-ready backend.
+
+
