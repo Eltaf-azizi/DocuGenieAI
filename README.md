@@ -137,4 +137,8 @@ python main.py
 
  - Build a web UI interface for chatbot monitoring.
 
+## 🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss the changes you would like to make.
+
+<h3 align="center">Happy Coding!</h3>
 
