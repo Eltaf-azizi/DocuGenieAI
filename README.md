@@ -116,3 +116,17 @@ python main.py
  - n8n (for automation)
 
  - ChromaDB / JSON storage (for vector retrieval)
+
+
+## 📘 Learning Goals
+ - Learn how to use LlamaIndex with your documentation.
+
+ - Understand Slackbot integration.
+
+ - Automate common developer workflows.
+
+ - Strengthen Python skills through real-world application.
+
+
+
+
