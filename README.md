@@ -104,4 +104,15 @@ python main.py
 
  - Scale with FastAPI's production-ready backend.
 
+## 🧰 Tech Stack
+ - Python
 
+ - FastAPI
+
+ - Slack API
+
+ - LlamaIndex
+
+ - n8n (for automation)
+
+ - ChromaDB / JSON storage (for vector retrieval)
